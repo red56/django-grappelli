@@ -156,6 +156,7 @@ function dismissAddAnotherPopup(win, newId, newRepr) {
             newInput.setAttribute('name', name);
             newInput.setAttribute('value', newId);
             newInput.setAttribute('id', inputId);
+            newInput.setAttribute('checked', 'checked');
             
             var newLabel = document.createElement('label');
             newLabel.setAttribute('for', inputId);
